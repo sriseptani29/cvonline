@@ -1,0 +1,34 @@
+.personal-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 16px;
+}
+
+.personal-info h2 {
+    grid-column: span 2;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.personal-info ul {
+    grid-column: span 2;
+    list-style-type: none;
+    padding: 0;
+}
+
+.personal-info li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+}
+
+.personal-info .label {
+    font-weight: 500;
+}
+
+.personal-info .value {
+    font-weight: 400;
+}
